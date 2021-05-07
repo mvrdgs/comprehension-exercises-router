@@ -3,7 +3,8 @@ header {
   display: flex;
   flex-direction: row;
   height: 70px;
-  font-size: 2em;
+  font-size: 1.5em;
+  justify-content: space-around;
 }
 
 header > nav {
@@ -22,4 +23,16 @@ header > nav > a {
 
 header > nav > a:hover {
   background-color: #888;
+}
+
+.login-form {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+}
+
+input {
+  margin: 5px;
 }
